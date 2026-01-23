@@ -1,4 +1,4 @@
-name: "Project title starter"
-identifier: "project-name-starter"
+name: "Sense HAT random sparkles"
+identifier: "editor-sense-hat-random-sparkles-starter"
 type: 'python'
-build: false
+build: true

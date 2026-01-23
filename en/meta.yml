@@ -2,13 +2,16 @@ title: Project title in sentence case
 hero_image: images/banner.png
 description: A short description of the project
 listed: false
-pdf: false
+copyedit: false
+last_tested: "2026-01-23"
 steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+- title: Step 1
+- title: Step 2
+  completion:
+  - engaged
+- title: Step 3
+- title: Step 4
+- title: Step 5
+  completion:
+  - internal
+  - external
