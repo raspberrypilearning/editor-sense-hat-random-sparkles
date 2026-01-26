@@ -7,6 +7,7 @@
 --- task ---
 
 Try changing the sleep value.
+
 --- /task ---
 
 + Can you change the types of colours shown?
@@ -14,9 +15,11 @@ Try changing the sleep value.
 --- task ---
 
 Make pastel colours by reducing the number range used for r, g and b.
---- /task --- 
+
+ --- /task --- 
 
 --- task ---
 
 Try fixing one of the colour values to 0, and see what happens.
+
 --- /task ---

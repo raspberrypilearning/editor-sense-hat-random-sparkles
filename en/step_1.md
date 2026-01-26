@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
+
 Create amazing random sparkles with your Sense HAT.
+
 --- /task ---
 
 Click **Run** to see a preview of the random sparkle effect you will create.

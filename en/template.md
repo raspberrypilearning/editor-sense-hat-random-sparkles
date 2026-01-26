@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">STEP TITLE</h2>
 --- task ---
+
 BRIEF SUMMARY OF STEP - one line
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">PROBABLY UNNECCESARY TITLE</h2>
