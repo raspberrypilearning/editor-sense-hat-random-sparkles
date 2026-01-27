@@ -16,7 +16,7 @@ Try changing the sleep value.
 
 Make pastel colours by reducing the number range used for r, g and b.
 
- --- /task --- 
+--- /task --- 
 
 --- task ---
 
