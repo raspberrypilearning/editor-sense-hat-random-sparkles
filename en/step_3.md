@@ -1,7 +1,7 @@
-<h2 class="c-project-heading--task">Light a random pixel</h2>
+<h2 class="c-project-heading--task">Make it random</h2>
 --- task ---
 
-Generate numbers to place a random colour on a random location on the Sense HAT display.
+Generate numbers to place a random colour at a random location on the Sense HAT display.
 
 --- /task ---
 
@@ -19,7 +19,7 @@ line_number_start: 1
 line_highlights: 2, 6-10
 ---
 from sense_hat import SenseHat
-from random import *
+from random import randint
 
 sense = SenseHat()
 
