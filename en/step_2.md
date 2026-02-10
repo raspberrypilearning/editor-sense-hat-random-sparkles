@@ -1,17 +1,20 @@
 <h2 class="c-project-heading--task">Light a pixel</h2>
+
+The Sense HAT’s LED matrix uses a coordinate system with an x- and a y-axis. The numbering of both axes begins at `0` (not 1) in the top left-hand corner. Each LED can be used as one pixel of an image, and it can be addressed using an `x, y` notation.
+
+In this image, the blue pixel is at coordinates `0, 2`.
+The red pixel is at coordinates `7, 4`.
+
+![Sense HAT LED matrix coordinates](images/coordinates.png)
+
 --- task ---
 
-Set a pixel to light red.
+Set the pixel at position 3,3 to red.
+
+Setting **r** to `255`, with **g** and **b** set to `0` means that the pixel will display full red.
 
 --- /task ---
 
-x indicates the horizontal axis, and can have a value between 0 (on the left) and 7 (on the right). 
-
-y indicates the vertical axis, and can have a value between 0 (at the top) and 7 (at the bottom). 
-
-Therefore, the x, y coordinates 0, 0 address the top left-hand LED, and the x, y coordinates 7, 7 address the bottom right-hand LED.
-
-Setting r to 255, with g and b set to 0 means that the pixel will display full red.
 
 <div class="c-project-code">
 --- code ---
@@ -48,7 +51,11 @@ sense.set_pixel(x, y, r, g, b)
 
 ### Tip
 
-Each pixel can be given value for r, g and b between 0 (fully off) and 255 (fully on).
+- x is the horizontal axis, and can have a value between 0 (on the left) and 7 (on the right).
+- y is the vertical axis, and can have a value between 0 (at the top) and 7 (at the bottom).
+- Therefore, the x, y coordinates 0, 0 address the top left-hand LED, and the x, y coordinates 7, 7 address the bottom right-hand LED.
+
+- Each pixel can be given value for r, g and b between 0 (fully off) and 255 (fully on).
 - r = Red
 - g = Green
 - b = Blue
