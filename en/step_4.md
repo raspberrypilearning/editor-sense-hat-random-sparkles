@@ -1,40 +1,21 @@
-<h2 class="c-project-heading--task">Add a loop</h2>
---- task ---
+<h2 class="c-project-heading--task">Challenge: better sparkles</h2>
 
-Rather than repeatedly running your program by pressing **Run**, you can add a loop to keep it running by itself.
+There are some changes you can make to alter how the sparkles will display.
 
---- /task ---
+### Step 1
 
-Import the sleep module, then add an infinite loop and indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop.
++ Can you make the sparkles change more quickly?
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 3, 7-14
----
-from sense_hat import SenseHat
-from random import randint
-from time import sleep
+Try changing the sleep value.
 
-sense = SenseHat()
 
-while True:
-    x = randint(0, 7)
-    y = randint(0, 7)
-    r = randint(0, 25)
-    g = randint(0, 55)
-    b = randint(0, 85)
-    sense.set_pixel(x, y, r, g, b)
-    sleep(0.1)
---- /code ---
-</div>
+### Step 2
 
-<div class="c-project-output">
++ Can you change the types of colours shown?
 
-![Random pixels lit with random colours on the HAT](images/random.png)
-</div>
+Make pastel colours by reducing the number range used for r, g and b.
 
+
+### Step 3
+
+Try fixing one of the colour values to 0, and see what happens.

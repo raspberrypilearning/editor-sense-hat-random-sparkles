@@ -1,13 +1,10 @@
-<h2 class="c-project-heading--task">Make it random</h2>
---- task ---
+<h2 class="c-project-heading--task">Add a loop</h2>
+### Step 1
 
-Generate numbers to place a random colour at a random location on the Sense HAT display.
+Rather than repeatedly running your program by pressing **Run**, you can add a loop to keep it running by itself.
 
---- /task ---
 
-Import the `random` library.
-
-Define random positions for x and y, to choose which pixel on the Sense HAT will light, then define random colour values for r, g and b.
+Import the sleep module, then add an infinite loop and indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop.
 
 <div class="c-project-code">
 --- code ---
@@ -16,22 +13,26 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 2, 6-10
+line_highlights: 3, 7-14
 ---
 from sense_hat import SenseHat
 from random import randint
+from time import sleep
 
 sense = SenseHat()
 
-x = randint(0, 7)
-y = randint(0, 7)
-r = randint(0, 255)
-g = randint(0, 50)
-b = randint(0, 255)
-
-sense.set_pixel(x, y, r, g, b)
-
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 25)
+    g = randint(0, 55)
+    b = randint(0, 85)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 --- /code ---
 </div>
 
-**Run** your code a few times to see the random results.
+<div class="c-project-output">
+
+![Random pixels lit with random colours on the HAT](images/random.png)
+</div>

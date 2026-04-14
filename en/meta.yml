@@ -4,14 +4,14 @@ description: A short description of the project
 listed: false
 copyedit: false
 last_tested: "2026-01-23"
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-  completion:
-  - engaged
-- title: Step 3
-- title: Step 4
-- title: Step 5
-  completion:
-  - internal
-  - external
+  - title: Light a pixel
+  - title: Make it random
+    completion:
+      - engaged
+  - title: Add a loop
+    completion:
+      - external
+  - title: "Challenge: better sparkles"
+    challenge: true
