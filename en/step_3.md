@@ -1,8 +1,9 @@
 <h2 class="c-project-heading--task">Add a loop</h2>
-### Step 1
+
 
 Rather than repeatedly running your program by pressing **Run**, you can add a loop to keep it running by itself.
 
+### Step 1
 
 Import the sleep module, then add an infinite loop and indent all of the lines of code containing your variables and `set_pixel` so that they are within the loop.
 

@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Make it random</h2>
-### Step 1
 
 Generate numbers to place a random colour at a random location on the Sense HAT display.
 
+### Step 1
 
 Import the `random` library.
 
