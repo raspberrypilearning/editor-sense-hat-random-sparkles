@@ -1,14 +1,17 @@
 <h2 class="c-project-heading--task">Light a pixel</h2>
 
-The Sense HAT’s LED matrix uses a coordinate system with an x- and a y-axis. The numbering of both axes begins at `0` (not 1) in the top left-hand corner. Each LED can be used as one pixel of an image, and it can be addressed using an `x, y` notation.
+The Sense HAT’s LED matrix uses a coordinate system with an x- and a y-axis.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+The numbering of both axes begins at `0` (not 1) in the top left-hand corner. Each LED can be used as one pixel of an image, and it can be addressed using an `x, y` notation.
 
 In this image, the blue pixel is at coordinates `0, 2`.
 The red pixel is at coordinates `7, 4`.
 
+<div class="c-project-output">
 ![Sense HAT LED matrix coordinates](images/coordinates.png)
-
-### Step 1
-
+</div>
 Set the pixel at position 3,3 to red.
 
 Setting **r** to `255`, with **g** and **b** set to `0` means that the pixel will display full red.
@@ -46,9 +49,9 @@ sense.set_pixel(x, y, r, g, b)
 ![A single red pixel lit on the HAT](images/red_pixel.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - x is the horizontal axis, and can have a value between 0 (on the left) and 7 (on the right).
 - y is the vertical axis, and can have a value between 0 (at the top) and 7 (at the bottom).
@@ -60,3 +63,7 @@ sense.set_pixel(x, y, r, g, b)
 - b = Blue
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

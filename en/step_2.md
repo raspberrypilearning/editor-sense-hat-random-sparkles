@@ -2,7 +2,7 @@
 
 Generate numbers to place a random colour at a random location on the Sense HAT display.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Import the `random` library.
 
@@ -34,3 +34,7 @@ sense.set_pixel(x, y, r, g, b)
 </div>
 
 **Run** your code a few times to see the random results.
+
+## Now run your code
+
+Confirm the observable result.
