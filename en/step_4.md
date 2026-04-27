@@ -22,4 +22,4 @@ Try fixing one of the colour values to 0, and see what happens.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that your sparkles change in the speed or colours you chose.

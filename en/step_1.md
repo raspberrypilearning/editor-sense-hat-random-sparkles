@@ -66,4 +66,4 @@ sense.set_pixel(x, y, r, g, b)
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that one red pixel lights up on the Sense HAT.

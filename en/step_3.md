@@ -39,4 +39,4 @@ while True:
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that random coloured pixels keep sparkling on the Sense HAT.

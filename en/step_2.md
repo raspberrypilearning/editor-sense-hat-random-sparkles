@@ -37,4 +37,4 @@ sense.set_pixel(x, y, r, g, b)
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code a few times and check that a pixel lights up in a different place and colour.
