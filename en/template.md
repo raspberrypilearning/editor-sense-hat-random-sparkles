@@ -26,17 +26,17 @@ CODE THEY WRITE HERE
 <pre>WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE</pre>
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 BULLET POINT TIPS HERE (OPTIONAL)
 
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 BULLET POINT DEBUG POINTS HERE (OPTIONAL)
 
