@@ -2,8 +2,6 @@
 
 Generate numbers to place a random colour at a random location on the Sense HAT display.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Import the `random` library.
 
 Define random positions for x and y, to choose which pixel on the Sense HAT will light, then define random colour values for r, g and b.
