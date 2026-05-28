@@ -2,8 +2,6 @@
 
 There are some changes you can make to alter how the sparkles will display.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 + Can you make the sparkles change more quickly?
