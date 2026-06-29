@@ -1,7 +1,7 @@
-title: Project title in sentence case
+title: Sense HAT random sparkles
 hero_image: images/banner.png
-description: A short description of the project
-listed: false
+description: Create amazing random sparkles with your Sense HAT.
+listed: true
 copyedit: false
 last_tested: "2026-01-23"
 landing: true
