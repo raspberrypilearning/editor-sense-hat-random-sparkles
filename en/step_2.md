@@ -4,7 +4,7 @@ Generate numbers to place a random colour at a random location on the Sense HAT 
 
 Import the `random` library.
 
-Define random positions for x and y, to choose which pixel on the Sense HAT will light, then define random colour values for r, g and b.
+Define random positions for x and y, to choose which pixel on the Sense HAT will light, then define random colour values for r, g, and b.
 
 <div class="c-project-code">
 --- code ---
@@ -35,4 +35,4 @@ sense.set_pixel(x, y, r, g, b)
 
 ## Now run your code
 
-Run your code a few times and check that a pixel lights up in a different place and colour.
+Run your code a few times and check that the pixel that lights up is in a different place and has a different colour each time.

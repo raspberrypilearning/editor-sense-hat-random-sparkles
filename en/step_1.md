@@ -51,11 +51,11 @@ sense.set_pixel(x, y, r, g, b)
 
 <div class="c-project-callout c-project-callout--tip">
 
-- x is the horizontal axis, and can have a value between 0 (on the left) and 7 (on the right).
-- y is the vertical axis, and can have a value between 0 (at the top) and 7 (at the bottom).
-- Therefore, the x, y coordinates 0, 0 address the top left-hand LED, and the x, y coordinates 7, 7 address the bottom right-hand LED.
+- x is the horizontal axis, and can have a value between 0 (on the left) and 7 (on the right)
+- y is the vertical axis, and can have a value between 0 (at the top) and 7 (at the bottom)
+- Therefore, the x, y coordinates 0, 0 address the top left-hand LED, and the x, y coordinates 7, 7 address the bottom right-hand LED
 
-- Each pixel can be given value for r, g and b between 0 (fully off) and 255 (fully on).
+- Each pixel can be given value for r, g and b between 0 (fully off) and 255 (fully on)
 - r = Red
 - g = Green
 - b = Blue
