@@ -1,22 +1,18 @@
-<h2 class="c-project-heading--task">Challenge: Better sparkles</h2>
+## Challenge: Better sparkles
 
 Here are some changes you can make to alter how the sparkles will display.
 
-## Step 1
+> [!CHALLENGE]
+>
+> Can you make the sparkles change more quickly? Try changing the sleep value.
 
-+ Can you make the sparkles change more quickly?
+> [!CHALLENGE]
+>
+> Can you change the types of colours shown? Make pastel colours by reducing the number range used for r, g, and b.
 
-Try changing the sleep value.
-
-## Step 2
-
-+ Can you change the types of colours shown?
-
-Make pastel colours by reducing the number range used for r, g, and b.
-
-## Step 3
-
-Try fixing one of the colour values to 0, and see what happens.
+> [!CHALLENGE]
+>
+> Try fixing one of the colour values to 0, and see what happens.
 
 ## Now run your code
 
